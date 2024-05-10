@@ -25,7 +25,7 @@ namespace PCEditorAPIWebApp.Models
 
 
 
-        /*
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
@@ -154,6 +154,6 @@ namespace PCEditorAPIWebApp.Models
             modelBuilder.Entity<CPUSocket>().HasKey(b => b.Id);
             modelBuilder.Entity<GPUSocket>().HasKey(b => b.Id);
         }
-        */
+        
     }
 }
